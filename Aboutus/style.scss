@@ -1,0 +1,385 @@
+/* Start Global Rules */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.line {
+    height: 2px;
+    width: 84px;
+    background-color: #934D99;
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+
+/* end Global Rules */
+
+
+/* Navbar*/
+
+.navbar {
+    background-color: black !important;
+    transition: opacity 1.2s;
+    .nav-item {
+        margin: 10px;
+        a {
+            color: #fff !important;
+        }
+    }
+    .let {
+        border-radius: 100px;
+        background-color: gray;
+    }
+    @media(max-width:769px) {
+        .offcanvas-header {
+            background: rgb(0, 0, 0);
+            color: #fff;
+        }
+        .btn-close {
+            background-color: #fff !important;
+        }
+        .nav-item a {
+            text-align: center;
+            font-size: 20px;
+            font-weight: bolder;
+            color: black !important;
+        }
+        .let {
+            background-color: #B8BABAF5;
+            border-radius: 20px 20px 20px;
+            padding: 2px;
+            font-weight: bolder;
+            font-size: 20px;
+        }
+    }
+}
+
+
+/* text*/
+
+.text {
+    padding-bottom: 10px;
+    background-color: black!important;
+    h5 {
+        margin-top: 15px;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+    @media(max-width:767px) {
+        margin: 0;
+        padding-bottom: 30px;
+        h5 {
+            margin: 0;
+        }
+    }
+}
+
+
+/*Img*/
+
+.back {
+    height: 40vh;
+    position: relative;
+    background-color: black;
+    .mac-img {
+        margin-bottom: 50px;
+    }
+    @media (width:768px) {
+        height: 15vh;
+    }
+    @media (max-width:767px) {
+        height: 0;
+    }
+}
+
+
+/*We are*/
+
+.we-are {
+    margin-top: 120px;
+    p {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    @media(max-width:767px) {
+        margin-top: 30px;
+    }
+    @media(width:768px) {
+        .we-img {
+            height: 350px;
+        }
+    }
+}
+
+
+/*We Know*/
+
+.our-know {
+    margin-top: 120px;
+    @media(max-width: 767px) {
+        margin-top: 30px;
+    }
+}
+
+
+/*We Lead*/
+
+.we-lead {
+    margin-top: 120px;
+    h3 {
+        font-weight: bolder;
+    }
+    @media(max-width: 767px) {
+        margin-top: 30px;
+    }
+}
+
+
+/*We are*/
+
+.we-work {
+    margin-top: 120px;
+    @media(max-width: 767px) {
+        margin-top: 30px;
+    }
+}
+
+
+/*Partner*/
+
+.partner {
+    background: linear-gradient(180deg, #000, rgb(119, 117, 117), #000000);
+    .line {
+        background-color: #fff;
+    }
+    h1 {
+        color: #fff
+    }
+    .partner-content {
+        padding-right: 20px;
+        border-right: 1px solid rgba(255, 255, 255, 0.69);
+        h4 {
+            font-family: 'Open San';
+            font-weight: 400;
+            font-size: 26px;
+            line-height: 30px;
+            color: #fff;
+        }
+        p {
+            font-family: 'Open San';
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 28px;
+            color: #fff;
+            text-align: center;
+        }
+        @media(max-width:767px) {
+            border: none;
+        }
+    }
+}
+
+
+/*Join-our-team*/
+
+.Join {
+    .line {
+        background-color: yellow !important;
+    }
+    .title {
+        position: relative;
+        .title-text {
+            font-family: 'Open San';
+            font-weight: 400;
+            font-size: 60px;
+            line-height: 28px;
+        }
+        @media(max-width:320px) {
+            .title-text {
+                font-size: 50px
+            }
+        }
+        .back-img {
+            background-image: url('imgs/About/frame.png');
+            background-position: center;
+            background-size: 5em auto;
+            background-repeat: no-repeat;
+        }
+    }
+    .content {
+        background-image: url('imgs/About/sparks.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        p {
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: normal;
+            font-size: 37px;
+            line-height: 70px;
+            background: linear-gradient(#FF01FD, #FD9F6A, #6e6e6e);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        @media(max-width: 767px) {
+            background-image: none;
+            p {
+                font-size: 30px;
+            }
+        }
+    }
+    .btn-join {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 25px;
+        line-height: 70px;
+        text-align: center;
+        color: #FF2E93;
+        background: #FEFFFF;
+        border: 1px solid #FEF39D;
+        box-sizing: border-box;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 100px;
+    }
+}
+
+
+/*Verticals*/
+
+.verticals {
+    .verticals-text {
+        h1 {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 70px;
+        }
+        p {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 28px;
+            color: #7E8792;
+        }
+    }
+    .verticals-icons {
+        .icon {
+            background: #FFFFFF;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            @media(width: 768px) {
+                h4 {
+                    font-size: 30px;
+                    font-weight: bolder;
+                }
+            }
+        }
+    }
+}
+
+
+/*Hear it from our clients*/
+
+.hear-it {
+    background: linear-gradient(to bottom, #6d4dfb, rgb(190, 190, 190));
+    .title {
+        .title-text {
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 60px;
+            line-height: 60px;
+            color: #FFFFFF;
+        }
+        .line {
+            background-color: #fff !important;
+        }
+    }
+    .comments {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 60px;
+        color: #FFFFFF;
+    }
+}
+
+
+/*Simple*/
+
+.Simple {
+    position: relative;
+    background-color: #414141;
+    h1 {
+        color: #fff
+    }
+    button {
+        border-radius: 100px;
+        font-size: 24px;
+        @media (max-width: 768px) {
+            button {
+                font-size: 19px;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+
+/*Footer*/
+
+.footer {
+    position: relative;
+    margin-top: 40;
+    background-color: #292929;
+    color: #fff;
+    h3 {
+        font-weight: 500;
+    }
+    a {
+        color: #fff;
+    }
+    .logos {
+        .logo {
+            outline: none;
+            appearance: none;
+            border: none;
+            // border-radius: 15px;
+        }
+        // .logo:hover {
+        //     background-color: #fff;
+        // }
+    }
+    .company li {
+        margin: 15px;
+        margin-right: 0;
+        font-size: 14;
+        line-height: 16.14px;
+        font-weight: 400;
+        a {
+            color: #fff;
+        }
+        a:hover {
+            color: gray;
+        }
+    }
+}
